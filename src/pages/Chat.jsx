@@ -205,7 +205,7 @@ function Chat() {
         body: JSON.stringify({
           inputs: [text.slice(0, 500)], // Sarvam has char limit
           target_language_code: language.sarvam,
-          speaker: "meera",
+          speaker: "anushka",
           pitch: 0,
           pace: 1.0,
           loudness: 1.5,
